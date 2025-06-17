@@ -1,13 +1,13 @@
-# Sitio Simple - Deploy from Branch
+# Deploy from a branch
 
 ## ¿Qué es esto?
-Este es un ejemplo de sitio web simple que funciona perfectamente con "Deploy from a branch" de GitHub Pages.
+Esta página sirve para **Deploy from a branch** en GitHub Pages.
 
-## ¿Por qué funciona con Deploy from Branch?
-- ✅ **HTML directo**: No necesita compilación
-- ✅ **CSS puro**: Sin preprocesadores
-- ✅ **JavaScript vanilla**: Sin frameworks que compilar
-- ✅ **Archivos estáticos**: Listos para servir directamente
+## ¿Cómo funciona?
+- ✅ Archivos HTML, CSS, JS directos
+- ✅ Sin build process
+- ✅ GitHub Pages los sirve tal como están
+- ✅ Deploy inmediato
 
 ## Estructura del proyecto
 sitio-simple/
@@ -17,13 +17,7 @@ sitio-simple/
 └── README.md     ← Este archivo
 
 
-## Características
-- 🎨 Diseño moderno y responsive
-- ⚡ Carga rápida (sin build process)
-- 🖱️ Interactividad con JavaScript vanilla
-- 📱 Compatible con móviles
-- 🎯 Navegación suave
-- ✨ Animaciones CSS
+
 
 ## Comparación con React
 
@@ -35,19 +29,20 @@ sitio-simple/
 | **Carga** | Instantánea | Requiere procesamiento |
 | **Complejidad** | Baja | Media-Alta |
 
-## Cómo usar con GitHub Pages
 
-1. **Sube estos archivos a un repositorio**
-2. **Ve a Settings → Pages**
-3. **Selecciona "Deploy from a branch"**
-4. **Elige la rama main**
-5. **¡Listo! Tu sitio estará en línea**
+## Cómo usar
+1. Sube estos archivos a GitHub
+2. Ve a Settings → Pages
+3. Selecciona "Deploy from a branch"
+4. Elige rama main
+5. ¡Listo!
 
-## Ventajas del Deploy from Branch
-- ⚡ **Más rápido**: No hay tiempo de build
-- 🔧 **Más simple**: Sin configuración compleja
-- 📝 **Más directo**: Lo que subes es lo que se ve
-- 🐛 **Menos errores**: Sin problemas de compilación
+## Ventajas
+- ⚡ **Rápido**: Sin tiempo de build
+- 🔧 **Simple**: Sin configuración
+- 📝 **Directo**: Lo que subes es lo que se ve
+
+
 
 ## Cuándo usar cada método
 
@@ -65,3 +60,10 @@ sitio-simple/
 
 ---
 *Ejemplo creado para demostrar la diferencia entre métodos de deploy en GitHub Pages*
+
+git init
+git add .
+git commit -m "Configurar GitHub Pages con flujo de trabajo CI/CD"
+git remote add origin https://github.com/Lalo12-max/practica.git
+git branch -M main
+git push -u origin main
