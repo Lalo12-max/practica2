@@ -7,10 +7,39 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+h1 {
     color: #333;
-    background: linear-gradient(135deg, #4CAF50, #45a049);
-    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #007cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005a87;
+}
+
+#frase {
+    font-weight: bold;
+    color: #007cba;
+    margin-top: 20px;
 }
 
 header {
